@@ -2,6 +2,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace _2025_718_equipo1_tarea2;
 
+
+[ApiController]
+[Route("api/[controller]")]
 public class CategoriaController : Controller
 {
   private static List<Categoria> categorias = new List<Categoria>
@@ -9,10 +12,25 @@ public class CategoriaController : Controller
 
     new Categoria
     {
-      Id = 1,
+      Id = Guid.NewGuid(),
       Nombre = "Pastas",
-      //Platos = 
-    }
+      //Platos =  {"Espaguetis", }
+    },
+    new Categoria
+    {
+    Id = Guid.NewGuid(),
+    Nombre = "Sopas",
+    //Platos =  {"Espaguetis", }
+    },
+    new Categoria
+    {
+    Id = Guid.NewGuid(),
+    Nombre = "Mariscos",
+    //Platos =  {"Espaguetis", }
+  }
+    
 
-  };
+};
+  
+  
 }

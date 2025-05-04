@@ -64,3 +64,6 @@ resharper-host/
 
 # VSCode (opcional si usas VS Code ocasionalmente)
 .vscode/
+
+# Archivos de macOS
+.DS_Store

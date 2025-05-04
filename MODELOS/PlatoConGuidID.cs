@@ -1,8 +1,8 @@
 namespace _2025_718_equipo1_tarea2;
 
-public class Plato
+public class PlatoConGuidID
 {
-    public int Id { get; set; }
+    public Guid Id { get; set; } = Guid.NewGuid();
 
     public string Nombre { get; set; }
 
