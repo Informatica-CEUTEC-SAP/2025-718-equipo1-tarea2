@@ -1,0 +1,15 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2025-718-equipo1-tarea2", "2025-718-equipo1-tarea2.csproj", "{99BA9C0D-91BD-4E73-897E-5A8E1D0DE975}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99BA9C0D-91BD-4E73-897E-5A8E1D0DE975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99BA9C0D-91BD-4E73-897E-5A8E1D0DE975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99BA9C0D-91BD-4E73-897E-5A8E1D0DE975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99BA9C0D-91BD-4E73-897E-5A8E1D0DE975}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

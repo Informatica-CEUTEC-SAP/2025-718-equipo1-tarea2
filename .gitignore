@@ -53,5 +53,17 @@ CodeCoverage/
 TestResult.xml
 nunit-*.xml
 
-.idea
+# Rider (JetBrains)
+.idea/
+*.sln.iml
+*.user
+*.suo
+*.userprefs
+*.DotSettings.user
+resharper-host/
+
+# VSCode (opcional si usas VS Code ocasionalmente)
+.vscode/
+
+# Archivos de macOS
 .DS_Store
