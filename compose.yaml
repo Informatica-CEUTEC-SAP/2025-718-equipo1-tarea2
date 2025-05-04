@@ -1,0 +1,7 @@
+﻿services:
+  2025-718-equipo1-tarea2:
+    image: 2025-718-equipo1-tarea2
+    build:
+      context: .
+      dockerfile: 2025-718-equipo1-tarea2/Dockerfile
+
